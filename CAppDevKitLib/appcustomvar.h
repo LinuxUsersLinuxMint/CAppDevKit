@@ -3,14 +3,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef int app_ver;
 typedef float app_ver_t;
-typedef const char *app_rs_date;
-typedef const char *app_lsup_date;
-typedef const char *app_name;
-typedef const char *app_developer_name;
-typedef const char *app_developer_website;
+typedef const char *app_rs_date, *app_lsup_date, *app_name, *app_developer_name, *app_developer_website;
 
 // typedef void custom
 
