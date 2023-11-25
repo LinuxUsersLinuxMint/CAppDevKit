@@ -10,7 +10,7 @@ typedef const char *app_name;
 typedef const char *app_developer_name;
 typedef const char *app_developer_website;
 
-// typedef void customv
+// typedef void custom
 
 typedef void app_func;
 
