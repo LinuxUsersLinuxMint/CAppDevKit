@@ -6,6 +6,8 @@
 
 typedef int app_ver;
 typedef float app_ver_t;
+typedef const char *app_rs_date;
+typedef const char *app_lsup_date;
 typedef const char *app_name;
 typedef const char *app_developer_name;
 typedef const char *app_developer_website;

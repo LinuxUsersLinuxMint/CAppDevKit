@@ -11,7 +11,7 @@ int main()
 
     if (process == 1)
     {
-        appinfo("ExampleCAppDevKitProject",1.0,"@LinuxUsersLinuxMint","https://linuxuserslinuxmint.github.io");
+        appinfo("ExampleCAppDevKitProject",1.0,"11/24/2023","11/25/2023","@LinuxUsersLinuxMint","https://linuxuserslinuxmint.github.io");
     }
     if (process == 2)
     {
