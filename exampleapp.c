@@ -1,23 +1,24 @@
 #include "CAppDevKitInfoLib/cappdevkitinfo.h"
 #include "CAppDevKitLib/appcustomvar.h"
 #include "CAppDevKitLib/appvoid.h"
+#include "Lib/customdefine.h"
 
-int main()
+_i main()
 {
-    int process;
+    _i process;
 
     printf("CAppDevKit Process (appinfo (1) / cappdevkitinfo (2) / appexit (3)): ");
     scanf("%d", &process);
 
     if (process == 1)
     {
-        appinfo("ExampleCAppDevKitProject",1.0,"11/24/2023","11/26/2023","@LinuxUsersLinuxMint","https://linuxuserslinuxmint.github.io");
+        appinfo("ExampleCAppDevKitProject",1.5,"11/24/2023","11/28/2023","@LinuxUsersLinuxMint","https://linuxuserslinuxmint.github.io");
     }
-    if (process == 2)
+    else if (process == 2)
     {
         cappdevkit_info();
     }
-    if (process == 3)
+    else if (process == 3)
     {
         app_exit();
     }
@@ -25,5 +26,5 @@ int main()
     {
         printf("Invalid process...");
     }
-    return 0;
+    r 0;
 }

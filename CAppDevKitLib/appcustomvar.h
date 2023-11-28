@@ -4,13 +4,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "../Lib/customdefine.h"
 
-typedef int app_ver;
-typedef float app_ver_t;
-typedef const char *app_rs_date, *app_lsup_date, *app_name, *app_developer_name, *app_developer_website;
+tdef _i app_ver;
+tdef _f app_ver_t;
+tdef _cc *app_rs_date, *app_lsup_date, *app_name, *app_developer_name, *app_developer_website;
 
 // typedef void custom
 
-typedef void app_func;
+tdef v app_func;
 
 #endif

@@ -3,8 +3,9 @@
 
 #include "appcustomvar.h"
 #include "../CAppDevKitInfoLib/cappdevkitinfo.h"
+#include "../Lib/customdefine.h"
 
-app_func appinfo(app_name appname, app_ver_t appver, app_rs_date apprs, app_lsup_date applsdate, app_developer_name appdevname, app_developer_website appdevwsite)
+afunc appinfo(app_name appname, app_ver_t appver, app_rs_date apprs, app_lsup_date applsdate, app_developer_name appdevname, app_developer_website appdevwsite)
 {
     printf("AppName: %s\n", appname);
     printf("AppVersion: %f\n", appver);
@@ -14,9 +15,9 @@ app_func appinfo(app_name appname, app_ver_t appver, app_rs_date apprs, app_lsup
     printf("AppDevWebSite: %s\n", appdevwsite);
 }
 
-app_func cappdevkit_info()
+afunc cappdevkit_info()
 {
-    struct CAppDevKitInfo CAppDevKitI;
+    st CAppDevKitInfo CAppDevKitI;
     CAppDevKitI.clibname = C_LIB_NAME;
     CAppDevKitI.cappdevkit = C_APP_DEV_KIT;
     CAppDevKitI.cappdevkitver = CAppDevKit_Ver;
@@ -34,7 +35,7 @@ app_func cappdevkit_info()
     printf("CAppDevKitWebSite: %s\n", CAppDevKitI.appdevswebsite);
 }
 
-app_func app_exit()
+afunc app_exit()
 {
     exit(0);
 }

@@ -7,3 +7,5 @@ cp CAppDevKitLib/appcustomvar.h CAppDevKit/CAppDevKitLib/
 chmod a+x CAppDevKit/CAppDevKitLib/appcustomvar.h
 cp CAppDevKitLib/appvoid.h CAppDevKit/CAppDevKitLib/
 chmod a+x CAppDevKit/CAppDevKitLib/appvoid.h
+cp Lib/customdefine.h CAppDevKit/Lib/
+chmod a+x CAppDevKit/Lib/customdefine.h

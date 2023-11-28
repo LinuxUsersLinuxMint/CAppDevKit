@@ -10,5 +10,6 @@ copy exampleapp.c C:\CAppDevKit
 copy CAppDevKitInfoLib\cappdevkitinfo.h C:\CAppDevKit\CAppDevKitInfoLib
 copy CAppDevKitLib\appcustomvar.h C:\CAppDevKit\CAppDevKitLib
 copy CAppDevKitLib\appvoid.h C:\CAppDevKit\CAppDevKitLib
+copy Lib\customdefine.h C:\CAppDevKit\Lib
 pause
 exit
