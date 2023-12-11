@@ -2,13 +2,14 @@
 #define _C_APP_DEV_KIT_INFO_H_
 
 #include "../CAppDevKitLib/appcustomvar.h"
+#include "../Lib/forc/cdefined.h"
 #include "../Lib/customdefine.h"
 
 #define C_LIB_NAME      "CAppDevKit"
 #define C_APP_DEV_KIT   "CAppDevKit (C App Developer Kit)"
-#define CAppDevKit_Ver   1.7
+#define CAppDevKit_Ver   2.0
 #define CAppDevKit_RS_Date  "11/24/2023"
-#define CAppDevKit_LAST_UPDATED_DATE    "12/02/2023"
+#define CAppDevKit_LAST_UPDATED_DATE    "12/03/2023"
 #define CAppDevKit_Developer_Name   "@LinuxUsersLinuxMint"
 #define CAppDevKit_Developer_website    "https://linuxuserslinuxmint.github.io"
 
