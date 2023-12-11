@@ -1,8 +1,6 @@
 #ifndef _CUSTOM_DEFINE_H_
 #define _CUSTOM_DEFINE_H_
 
-#include "../CAppDevKitLib/appcustomvar.h"
-
 // return keywords
 
 #define r      return
@@ -15,7 +13,6 @@
 #define func        void
 #define fun         void
 #define def         void
-#define afunc       void
 
 // Data Types keywords
 
@@ -37,35 +34,5 @@
 #define st   struct
 #define en   enum
 #define ui   union
-
-// print func
-
-afunc print(char *str)
-{
-    printf("%s", str);
-}
-
-afunc println(char *str)
-{
-    printf("%s", str);
-}
-
-afunc p(char *str)
-{
-    printf("%s", str);
-}
-
-// for cpp (C++)
-
-#define use     using
-#define nsp     namespace
-#define cl      class
-#define pb      public:
-#define pr      private:
-#define ptc     protected:
-#define uns     using namespace std;
-#define ct      cout
-#define cn      cin
-#define ed     endl
 
 #endif

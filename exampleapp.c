@@ -12,7 +12,7 @@ _i main()
 
     if (process == 1)
     {
-        appinfo("ExampleCAppDevKitProject",1.5,"11/24/2023","11/28/2023","@LinuxUsersLinuxMint","https://linuxuserslinuxmint.github.io");
+        appinfo("ExampleCAppDevKitProject",1.7,"11/24/2023","12/02/2023","@LinuxUsersLinuxMint","https://linuxuserslinuxmint.github.io");
     }
     else if (process == 2)
     {

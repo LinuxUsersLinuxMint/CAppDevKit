@@ -2,10 +2,11 @@
 #define _APP_VOID_H_
 
 #include "appcustomvar.h"
+#include "../Lib/forc/cdefined.h"
 #include "../CAppDevKitInfoLib/cappdevkitinfo.h"
 #include "../Lib/customdefine.h"
 
-afunc appinfo(app_name appname, app_ver_t appver, app_rs_date apprs, app_lsup_date applsdate, app_developer_name appdevname, app_developer_website appdevwsite)
+appfunc appinfo(app_name appname, app_ver_t appver, app_rs_date apprs, app_lsup_date applsdate, app_developer_name appdevname, app_developer_website appdevwsite)
 {
     printf("AppName: %s\n", appname);
     printf("AppVersion: %f\n", appver);
@@ -15,7 +16,7 @@ afunc appinfo(app_name appname, app_ver_t appver, app_rs_date apprs, app_lsup_da
     printf("AppDevWebSite: %s\n", appdevwsite);
 }
 
-afunc cappdevkit_info()
+appfunc cappdevkit_info()
 {
     st CAppDevKitInfo CAppDevKitI;
     CAppDevKitI.clibname = C_LIB_NAME;
@@ -35,7 +36,7 @@ afunc cappdevkit_info()
     printf("CAppDevKitWebSite: %s\n", CAppDevKitI.appdevswebsite);
 }
 
-afunc app_exit()
+appfunc app_exit()
 {
     exit(0);
 }
