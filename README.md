@@ -6,7 +6,7 @@
 * CADK (C App Developer Kit) Grafik Kullanıcı Arayüzü (GUI) Geliştirmek için veya Kullanıcı Arayüzü (UI) geliştirmek için özel olarak tasarlanmamıştır ancak Grafik Kullanıcı Arayüzü (GUI) ve Kullanıcı Arayüzü (UI) projesi/uygulaması geliştirirken kod yazmayı kolaylaştırması için kullanıma uygundur.
 
 Önemli Uyarılar:
-* CAppDevKit ile Uygulama geliştirirken cappdevkit_info() fonksiyonu program içinde kullanılmalı ve bu programın "CAppDevKit" kullanılarak yazılmıştır ibaresi eklenmelidir. (CAppDevKit proje linki verilmesi zorunludur)
+* CAppDevKit ile Uygulama geliştirirken cappdevkit_info() fonksiyonu program içinde kullanılmalı ve bu program "CAppDevKit" kullanılarak yazılmıştır ibaresi eklenmelidir. (CAppDevKit proje linki verilmesi zorunludur)
 
 (EN / English)
 
