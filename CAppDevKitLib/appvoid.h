@@ -51,7 +51,7 @@ appfunc app_exit(_i x)
     exit(x);
 }
 
-/*appfunc app_exit_msg(app_msg exit_msg, _i maxtime)
+appfunc app_exit_msg(app_msg exit_msg, _i maxtime)
 {
     printf("%s\n", exit_msg);
     
@@ -62,6 +62,6 @@ appfunc app_exit(_i x)
             app_exit(0);
         }
     }
-}*/
+}
 
 #endif

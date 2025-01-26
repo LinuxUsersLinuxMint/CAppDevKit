@@ -21,13 +21,4 @@ appfunc p(char *str)
     printf("%s", str);
 }
 
-st cdefine
-{
-    #define clib_define_name    "cdefined"
-    #define clib_file_ext       ".h"
-    #define clib_ver            "2.0"
-} cdef;
-
-st cdefine cdef;
-
 #endif

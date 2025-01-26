@@ -12,6 +12,7 @@
 #define function    void
 #define func        void
 #define fun         void
+#define fn          void
 #define def         void
 #define V           v
 #define F           f

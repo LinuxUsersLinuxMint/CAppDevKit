@@ -7,9 +7,9 @@
 
 #define C_LIB_NAME      "CAppDevKit"
 #define C_APP_DEV_KIT   "CAppDevKit (C App Developer Kit)"
-#define CAppDevKit_Ver   2.0
+#define CAppDevKit_Ver   2.1
 #define CAppDevKit_RS_Date  "11/24/2023"
-#define CAppDevKit_LAST_UPDATED_DATE    "12/03/2023"
+#define CAppDevKit_LAST_UPDATED_DATE    "1/26/2025"
 #define CAppDevKit_Developer_Name   "@LinuxUsersLinuxMint"
 #define CAppDevKit_Developer_website    "https://linuxuserslinuxmint.github.io"
 
