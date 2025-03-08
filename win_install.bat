@@ -1,6 +1,5 @@
 @echo off
 @title=CAppDevKit Setup Environment
-@color 1
 :m
 cls
 echo Press enter to start the installation...
