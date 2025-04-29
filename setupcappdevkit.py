@@ -43,7 +43,6 @@ elif yes_no=="Uninstall" or yes_no=="uninstall" or yes_no=="U" or yes_no=="u":
     print("Uninstall CAppDevKit...")
     time(3)
     os.system("./uninstall_cappdevkit.sh")
-    time(3)
-    exit()
+    exit_program_time(3)
 else:
     error_msg("Invalid CAppSE (CAppDevKit Setup Environment) Argument...")
